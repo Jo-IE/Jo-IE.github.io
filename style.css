@@ -70,7 +70,7 @@ text-align: center;
 }
   .welcome-section{
   text-align: center;
-  height: 100vh;
+  height: 60vh;
   background: url("https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
   background-attachment: fixed;
  background-size: cover;
@@ -79,26 +79,6 @@ text-align: center;
   position: relative;
 }
 
-.welcome-section:after{
-  animation: appear 6s ease-out;
-  border: 10px solid;
-  border-color: white transparent transparent;
-  bottom: 5vh;
-  content: "";
-  position:absolute;
-}
-
-@keyframes appear{
-  0%{
-    opacity: 0;
-  }
-  75%{
-    opacity: 0;
-}
-  100%{
-    opacity: 1;
-  }
-}
 
 h1{
   color: #fff;
@@ -137,7 +117,8 @@ h1:before{
   align-items: center;
   background-color: #EEB400;
   display: flex;
-  height: 400px;
+  flex-direction:column;
+  height: 75vh;
   justify-content: center;
   padding: 20px 0 20px 0;
 }
@@ -150,9 +131,8 @@ h1:before{
 }
 .banner_text{
   flex: 0 2 50%;
-  line-height: 37px;
   margin-right: 5%;
-  text-align: left;
+  text-align: center;
 }
 .section-header{
   height: 120px; 
@@ -218,6 +198,8 @@ h1:before{
 .education_item{
   align-items: center;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 a:hover{
@@ -295,6 +277,29 @@ a:hover{
   .navbar > a ~ a{
   border-left: 1px solid rgba(255, 255, 255, 0.3);
 }
+.welcome-section{
+  height: 100vh;
+}
+.welcome-section:after{
+  animation: appear 6s ease-out;
+  border: 10px solid;
+  border-color: white transparent transparent;
+  bottom: 5vh;
+  content: "";
+  position:absolute;
+}
+
+ @keyframes appear {
+  0%{
+    opacity: 0;
+  }
+  75%{
+    opacity: 0;
+}
+  100%{
+    opacity: 1;
+  }
+}
  
   .project-tile{
     width: 30%;
@@ -313,7 +318,9 @@ a:hover{
   .banner_text{
     margin-right: 5%;
     text-align: left;
+     line-height: 37px;
   }
+ 
   .form-row > input, textarea {
     	flex: 3; 
 }
