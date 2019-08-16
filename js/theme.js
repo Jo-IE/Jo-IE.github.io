@@ -55,14 +55,14 @@
   /*----------------------------------------------------*/
   /*  MailChimp Slider
     /*----------------------------------------------------*/
-  function mailChimp() {
+  /*function mailChimp() {
     $("#mc_embed_signup")
       .find("form")
       .ajaxChimp();
   }
   mailChimp();
 
-  $("select").niceSelect();
+  $("select").niceSelect();*/
 
   /*----------------------------------------------------*/
   /*  Isotope Fillter js
