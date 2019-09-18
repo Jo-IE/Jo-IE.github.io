@@ -376,7 +376,7 @@ padding: 50vh 0; }
     overflow: hidden;
     width: 100%;
     min-height: 400px;
-    background-image: url(../img/banner/hudson-hintze-ZTO5ntSqUKA-unsplash.jpg);
+    background-image: url("https://images.unsplash.com/photo-1518978054039-e4682dbc9a5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80");
     background-size: cover;
     z-index: 1; }
     .banner_area .banner_inner .banner_content h1 {
