@@ -281,7 +281,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #ffd200;
+    background:  #ffd200;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -313,17 +313,17 @@ button:focus {
 /* Home Banner Area css
 ============================================================================================ */
 .banner-area .single_slide_banner {
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat ;
   background-attachment: fixed ;
   height: 100vh;
  }
 .banner-area .slide_bg1 {
-  background: url(../img/banner/hudson-hintze-ZTO5ntSqUKA-unsplash.jpg); }
+  background: url("https://images.unsplash.com/photo-1518978054039-e4682dbc9a5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"); }
 .banner-area .slide_bg2 {
-  background: url(../img/banner/hudson-hintze-ZTO5ntSqUKA-unsplash.jpg); }
+  background: url("https://images.unsplash.com/photo-1518978054039-e4682dbc9a5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"); }
 .banner-area .slide_bg3 {
-  background: url(../img/banner/hudson-hintze-ZTO5ntSqUKA-unsplash.jpg); }
+  background: url("https://images.unsplash.com/photo-1518978054039-e4682dbc9a5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"); }
 @media (max-width: 991px) {
     .banner-area .fullscreen {
     height: 100vh !important; } }
@@ -2920,7 +2920,7 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: #ffd200; }
+  background:  #150811; }
 
 .social_widget .f_title h4 {
   font-size: 21px;
@@ -2948,11 +2948,12 @@ h6 {
     color: #e45447; }
 
 .copyright {
-  margin-top: 40px; }
+  margin-top: 40px;
+font-size: 10px }
   .copyright p {
-    color: #000; }
+    color: #474044; }
     .copyright p a {
-      color: #e45447; }
+      color: #474044; }
 
 /* End Footer Area css
 ============================================================================================ */
