@@ -3359,6 +3359,10 @@ h6 {
     margin-top: 40px;
 }
 
+.about-text {
+    line-height: 3.1rem;
+}
+
 /* End About Area css
 ============================================================================================ */
 /* Start Testimonial Area css
