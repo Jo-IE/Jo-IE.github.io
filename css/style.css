@@ -400,8 +400,9 @@ b {
 .banner-area .slide_bg1 {
     background: url('https://images.unsplash.com/photo-1466781783364-36c955e42a7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     filter: brightness(120%);
+    background-position: center;
 }
 .banner-area .slide_bg2 {
     background: url('https://images.unsplash.com/photo-1518978054039-e4682dbc9a5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80');
@@ -478,7 +479,10 @@ b {
     width: 100%;
     min-height: 400px;
     background-image: url('https://images.unsplash.com/photo-1466781783364-36c955e42a7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60');
-    background-size: cover;
+    background-size: auto;
+    background-position: left center;
+    background-repeat: no-repeat;
+
     z-index: 1;
     filter: brightness(120%);
 }
